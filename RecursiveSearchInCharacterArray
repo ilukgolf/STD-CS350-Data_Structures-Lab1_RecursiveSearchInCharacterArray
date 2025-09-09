@@ -18,3 +18,8 @@ data = [
     "MNBVCXZLKJhGFDSAPOIUYTREWQ",
     "QWERTYUIOPASDFGHJKLZXCVBNM"
 ]
+
+# 1 Count the lowercase characters in data using recursive function
+# 2  Find the lines with the lowercase characters using recursive function
+# 3 Collect all lowercase characters using recursive function
+# 4 Find all positions of lowercase characters using recursive function
