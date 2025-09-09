@@ -20,6 +20,64 @@ data = [
 ]
 
 # 1 Count the lowercase characters in data using recursive function
+"""
+    Recursively counts lowercase characters in a 2D character array.
+
+    Args:
+        data (list of str): The character array to search.
+        row (int, optional): The current row index. Defaults to 0.
+        col (int, optional): The current column index. Defaults to 0.
+
+    Returns:
+        int: The total number of lowercase characters found.
+"""
+def count_lowercase_recursive(data, row=0, col=0):
+    None
+
 # 2  Find the lines with the lowercase characters using recursive function
+"""
+    Recursively finds the indices of rows containing at least one lowercase character.
+
+    Args:
+        data (list of str): The character array to search.
+        row (int, optional): The current row index. Defaults to 0.
+        lines (list, optional): The list of row indices with lowercase characters. Defaults to None.
+
+    Returns:
+        list: Indices of rows containing lowercase characters.
+"""
+def find_lines_with_lowercase_recursive(data, row=0, lines=None):
+    None
+
 # 3 Collect all lowercase characters using recursive function
+"""
+    Recursively collects all lowercase characters from a 2D character array.
+
+    Args:
+        data (list of str): The character array to search.
+        row (int, optional): The current row index. Defaults to 0.
+        col (int, optional): The current column index. Defaults to 0.
+        collected (list, optional): The list of collected lowercase characters. Defaults to None.
+
+    Returns:
+        list: All lowercase characters found in the array.
+"""
+def collect_lowercase_recursive(data, row=0, col=0, collected=None):
+    None
+
 # 4 Find all positions of lowercase characters using recursive function
+"""
+    Recursively finds all positions of lowercase characters in a 2D character array.
+
+    Args:
+        data (list of str): The character array to search.
+        row (int, optional): The current row index. Defaults to 0.
+        col (int, optional): The current column index. Defaults to 0.
+        positions (list, optional): The list of positions and characters found. Defaults to None.
+
+    Returns:
+        list: A list of tuples (row, col, character) for each lowercase character found.
+"""
+def find_lowercase_positions_recursive(data, row=0, col=0, positions=None):
+    None
+
