@@ -141,22 +141,22 @@ def find_lowercase_positions_recursive(data, row=0, col=0, positions=None):
     return find_lowercase_positions_recursive(data, row, col + 1, positions)
 
 
-# # Test the functions
-# if __name__ == "__main__":
-#     data_test = data  # You can switch to data2 for additional testing
+# Test the functions
+if __name__ == "__main__":
+    data_test = data  # You can switch to data2 for additional testing
 
-#     # 1 Count lowercase characters
-#     lowercase_count = count_lowercase_recursive(data_test)
-#     print(f"Total lowercase characters: {lowercase_count}")
+    # 1 Count lowercase characters
+    lowercase_count = count_lowercase_recursive(data_test)
+    print(f"Total lowercase characters: {lowercase_count}")
 
-#     # 2 Find lines with lowercase characters
-#     lines_with_lowercase = find_lines_with_lowercase_recursive(data_test)
-#     print(f"Lines with lowercase characters: {lines_with_lowercase}")
+    # 2 Find lines with lowercase characters
+    lines_with_lowercase = find_lines_with_lowercase_recursive(data_test)
+    print(f"Lines with lowercase characters: {lines_with_lowercase}")
 
-#     # 3 Collect all lowercase characters
-#     collected_lowercase = collect_lowercase_recursive(data_test)
-#     print(f"Collected lowercase characters: {collected_lowercase}")
+    # 3 Collect all lowercase characters
+    collected_lowercase = collect_lowercase_recursive(data_test)
+    print(f"Collected lowercase characters: {collected_lowercase}")
 
-#     # 4 Find all positions of lowercase characters
-#     lowercase_positions = find_lowercase_positions_recursive(data_test)
-#     print(f"Positions of lowercase characters: {lowercase_positions}")
+    # 4 Find all positions of lowercase characters
+    lowercase_positions = find_lowercase_positions_recursive(data_test)
+    print(f"Positions of lowercase characters: {lowercase_positions}")
