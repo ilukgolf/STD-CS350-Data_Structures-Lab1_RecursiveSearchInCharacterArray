@@ -32,7 +32,16 @@ data = [
         int: The total number of lowercase characters found.
 """
 def count_lowercase_recursive(data, row=0, col=0):
-    None
+    # Base case: If we have processed all rows
+    if row >= len(data):
+        return 0
+    # If we have processed all columns in the current row, move to the next row
+    if col >= len(data[row]):
+        return count_lowercase_recursive(data, row + 1, 0)
+    # Check if the current character is lowercase
+    count = 1 if data[row][col].islower() else 0
+    # Recur for the next character in the same row
+    return count + count_lowercase_recursive(data, row, col + 1)
 
 # 2  Find the lines with the lowercase characters using recursive function
 """
@@ -81,3 +90,8 @@ def collect_lowercase_recursive(data, row=0, col=0, collected=None):
 def find_lowercase_positions_recursive(data, row=0, col=0, positions=None):
     None
 
+# Test the functions
+if __name__ == "__main__":
+    # 1 Count lowercase characters
+    lowercase_count = count_lowercase_recursive(data)
+    print(f"Total number of lowercase characters: {lowercase_count}")
