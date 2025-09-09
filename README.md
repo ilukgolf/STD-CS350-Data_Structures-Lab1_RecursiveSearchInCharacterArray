@@ -1,4 +1,3 @@
-# STD-CS350-Data_Structures-Lab1_RecursiveSearchInCharacterArray
 # Lab1: Recursive Search in Character Array
 
 ## คำอธิบาย
@@ -48,11 +47,11 @@ data = [
 
 ## ผลลัพธ์ที่คาดหวัง
 
-Total number of lowercase characters: 10 
-Lines containing lowercase characters: [1, 3, 5, 6, 10] 
-Lowercase characters found: ['q', 'm', 'q', ...] 
-Positions found: [(1, 16, 'q'), (3, 20, 'm'), ...] 
 
+<p>Total number of lowercase characters: 10
+<br>Lines containing lowercase characters: [1, 3, 5, 6, 10]
+<br>Lowercase characters found: ['q', 'm', 'q', ...]
+<br>Positions found: [(1, 16, 'q'), (3, 20, 'm'), ...]</p>
 
 ---
 
