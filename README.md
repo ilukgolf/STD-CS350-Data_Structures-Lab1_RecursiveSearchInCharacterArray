@@ -48,10 +48,10 @@ data = [
 
 ## ผลลัพธ์ที่คาดหวัง
 
-Total number of lowercase characters: 10
-Lines containing lowercase characters: [1, 3, 5, 6, 10]
-Lowercase characters found: ['q', 'm', 'q', ...]
-Positions found: [(1, 16, 'q'), (3, 20, 'm'), ...]
+Total number of lowercase characters: 10 
+Lines containing lowercase characters: [1, 3, 5, 6, 10] 
+Lowercase characters found: ['q', 'm', 'q', ...] 
+Positions found: [(1, 16, 'q'), (3, 20, 'm'), ...] 
 
 
 ---
